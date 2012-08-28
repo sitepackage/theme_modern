@@ -1,0 +1,167 @@
+#sidebar1 .topic1,
+#main .topic1{
+	font-size:1.4em;
+}
+#main .topic1,
+#main .topic2,
+#nav-left .topic2{
+	text-transform:uppercase;
+}
+#article .topic1,
+#product .topic1{
+	text-transform:none;
+}
+#sidebar1 .articles li{
+	background: url("icon_blog.png") no-repeat top left	
+}
+.cart_status{
+	background:url("bg_cart.png") repeat-y;
+}
+#nav-left .list li{
+	background: url("icon_nav-left.png") no-repeat center left ;
+}
+#main .column .bullets{
+	background: url("icon_topic_discussion.png") no-repeat center left ;
+}
+.widgets{
+	background: url('widgets.png') no-repeat ;
+}
+.banners{
+	background: url('banners.png') no-repeat center center ;
+}
+.buttons{
+	background: url('buttons.png') no-repeat;
+}
+/*------------------- Font Color --------------------*/
+#header,
+#header .account,
+#header .logged_in,
+#header .account .logged_in  li a,
+#header .socials_wrapper .topic1,
+#header a,
+#header .nav li a,
+#footer,
+#footer a,
+#collection .subcategory a,
+#footer .copyright a,
+#footer .copyright a:hover,
+#header .cart_status a,
+#sidebar1 .topic2 a,
+#sidebar1 .bullets a,
+#header .nav2 li a,
+#frontpage .column .topic2{
+	color:#f1f1f1;		
+}
+#footer .copyright,
+#footer .copyright a,
+#footer .copyright a:hover,
+#main .column .bullets small,
+#blog .author,
+#article .author,
+#cart_form .fl,
+#discussion .breadcrumb a,
+#discussion .message a,
+#comments li .meta span,
+#main .padding a,
+#discussion .page .padding .fl,
+#sidebar1 .bullets small{
+	color:#777;			
+}
+#header .cart_status a:hover,
+
+#sidebar1 .topic2,
+#sidebar1 .stats dd,
+#discussion .message a:hover,
+#header .nav2 li a:hover{
+	color:#000;	
+}
+#header .account .button{
+	color:#fff;	
+}
+#blog .details .topic2 a,
+#sidebar1 li a{
+	color:#464646;	
+}
+#main a:hover,
+#main .column li a,
+#main .topic1,
+#main #product .topic1 a,
+#discussion .listing th,
+#cart .items th,
+#discussion .breadcrumb a:hover,
+#collection .subcategory a:hover,
+#sidebar1 li a:hover{
+	color:#2e2e2e;
+}
+#blog .details .topic2 a:hover,
+#blog .excerpt a,
+#blog .excerpt a:hover,
+#main .padding a:hover,
+#frontpage .price,
+#collection .grid .price,
+#header .logo_wrapper .site_name,
+#header a:hover,
+#header .logged_in .topic2,
+#header .account .logged_in  li a:hover,
+#header .nav a:hover,
+#footer a:hover,
+.notice_wrapper .more,
+#sidebar1 .bullets a:hover{
+	color:#a7b82d;
+}
+#header .logo_wrapper .site_slogan{
+	color:#ecf1c7;
+}
+/*------------------- Background Color --------------------*/
+#collection .subcategory a{
+  background-color:#333;	
+}
+#collection .subcategory a,
+#collection .subcategory a:hover{
+  background-color:#888;
+}
+#header .nav2 li a:hover,
+#discussion .page .padding,
+#comments li .meta,
+#discussion .listing .hover{
+	background-color:#f1f4de;
+}
+#sidebar1 .nav-left .active a,
+#discussion .listing th,
+#cart .items th,
+#header .account .button,
+#sidebar1 .list li a:hover,
+#main .column li a:hover,
+#header .nav2,
+#main .column .topic2 span{
+	background-color:#a7b82d;
+}
+#header .account .signup{
+	background-color:#2e2e2e;
+}
+#sidebar1 .articles{
+	background-color:#5e5e5e;
+}
+
+/*------------------- Border Color --------------------*/
+#discussion .listing td,
+#blog .padding li,
+#main .column ul li,
+#cart_form td{
+	border-bottom:1px dotted #ededed;
+}
+#sidebar1 .articles li{
+	border-bottom:1px dotted #7a7a7a;
+}
+#sidebar1 .list li{
+	border-bottom:1px solid #f8f8f8;
+}
+#header .cart_stat{
+		border:1px solid gray;
+}
+#header .nav li{
+	border-right:1px dotted #555;
+}
+#main .column{
+	border:1px solid #ededed;
+}
