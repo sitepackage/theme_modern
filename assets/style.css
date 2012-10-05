@@ -1541,6 +1541,10 @@ body{
 		z-index:100;
 		background: url('soldout.png') no-repeat left top;
 }
+
+#collection .grid li:hover{
+  background: url('buttons_add-to-cart.png') no-repeat left top;
+}
 #collection .image {
 	height: 172px;
 	overflow: hidden;
@@ -1589,7 +1593,6 @@ body{
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
-	background-position: 0px -72px;
 }
 #collection .description {
 	padding: 6px;
