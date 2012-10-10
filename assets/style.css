@@ -1541,6 +1541,28 @@ body{
 		z-index:100;
 		background: url('soldout.png') no-repeat left top;
 }
+#collection .grid li .addtocart{
+	display:none;
+  width:160px;
+  height:172px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:100;
+}
+#collection .grid li .addtocart{
+	display:none;
+  width:168px;
+  height:42px;
+	position:absolute;
+	top:70px;
+	left:0px;
+	z-index:10;
+}
+#collection .grid li:hover .addtocart{
+  display:block;
+	background: url('buttons_add-to-cart.png') no-repeat left top;
+}
 #collection .image {
 	height: 172px;
 	overflow: hidden;
@@ -1570,26 +1592,31 @@ body{
 	float: right;
 	margin: 9px 4px 0 0;
 }
-#collection .buy a .view{
-	width:76px;
+#collection .buy .view{
+	width:19px;
 	height: 15px;
+  text-align:left;
 	border: 0;
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
-	background-position: 0px -87px;
+	background: url('view.png') no-repeat left top;
 	display:block;
 }
 #collection .buy a:hover {
 }
-#collection .buy .add_to_cart {
-	width:76px;
-	height: 15px;
+#collection li:hover .add_to_cart {
+	width:168px;
+	height: 42px;
+	position:relative;
+	top:0px;
+	left:0px;  
 	border: 0;
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
-	background-position: 0px -72px;
+  background: transparent no-repeat top left;
+	z-index:50;  
 }
 #collection .description {
 	padding: 6px;

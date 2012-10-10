@@ -42,22 +42,22 @@
       <li>
         [%- if !product.available %]
         <div class="soldout"></div>
-        [%- end %]         
-        <a href="[% product.uri %]">
-          <span class="image" style="background-image: url('[% product.featured_image.src | image_uri ('small') %]')"></span>
-        </a>
+        [%- else %]
+          <div class="addtocart">
+            <form action="/cart/add" method="post">
+              <input type="hidden" name="variant" value="[% product.variants.first.id %]" />
+              <input type="button" class="add_to_cart" onclick="submit(); return false" title="[% 'Add to Cart' | loc %]" />
+            </form>
+          </div>
+        [%- end %]
+          <a href="[% product.uri %]">
+            <span class="image" style="background-image: url('[% product.featured_image.src | image_uri ('small') %]')"></span>
+          </a>
         <div class="title"><a href="[% product.uri %]">[% product.name | html %]</a></div>
         <div class="price">[% if product.price_max != "0.00" %][% product.price_min | money_without_decimal %][% end %] </div>
         [%- if  !settings.ecommerce_enabled %]             
         <div class="buy">
-          [%- if product.price_varies %]
-          [% '<span class="view buttons"></span>'| link_to (product.uri, product.name) %]
-          [%- else %]
-          <form action="/cart/add" method="post">
-            <input type="hidden" name="variant" value="[% product.variants.first.id %]" />
-            <input type="button" class="buttons add_to_cart" onclick="submit(); return false" title="[% 'Add to Cart' | loc %]" />
-          </form>
-          [%- end %]
+          [% '<span class="view"></span>'| link_to (product.uri, product.name) %]
         </div>
         [%- end %]         
       </li>
