@@ -1530,38 +1530,69 @@ body{
   width: 160px;
   height: 270px;
   margin: 0 8px 10px 8px;
-	position:relative;	
+	position:relative;  
 }
 #collection .grid li .soldout{
-		width: 127px;
-		height: 90px;
-		position:absolute;
-		top:0;
-		left:0;
-		z-index:100;
-		background: url('soldout.png') no-repeat left top;
+  width: 127px;
+  height: 90px;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:10;
+  background: url('soldout.png') no-repeat left top;
+}
+#collection .grid li:hover .soldout{
+  display:none;
 }
 #collection .grid li .addtocart{
-	display:none;
+  display:none;
   width:160px;
-  height:172px;
-	position:absolute;
-	top:0;
-	left:0;
-	z-index:100;
+  height:205px;
+  position:absolute;
+  z-index:100;
+  top:0px;
+  left:0px;  
 }
-#collection .grid li .addtocart{
-	display:none;
-  width:168px;
-  height:42px;
-	position:absolute;
-	top:70px;
-	left:0px;
-	z-index:10;
-}
-#collection .grid li:hover .addtocart{
+#collection li:hover .addtocart{
   display:block;
-	background: url('buttons_add-to-cart.png') no-repeat left top;
+	background: url('detail_product.png') repeat left top;
+
+}
+#collection li:hover .addtocart .title {
+	height: 55px;
+	overflow: hidden;
+	line-height: 1.2em;
+	margin:0 0 6px 0;
+  padding:5px;
+	font-size: 0.85em;
+	background: url('bg_title.png') repeat left top;
+}
+#collection li:hover .addtocart .title a{
+  color:#ffffff;
+}
+#collection li:hover .buy{
+  height:65px;
+  text-align:center;
+}
+#collection li:hover .buy .add_to_cart {
+	width:85px;
+	height:29px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+  background: url('buttons_add-to-cart_new.png') no-repeat left top;
+}
+#collection li:hover .buy a{
+  text-align:center;
+	width:60px;
+	height:29px;
+  display:block;
+	border: 0;
+	margin: 0 0 0 50px;
+	padding: 0;
+	cursor: pointer;
+	background: url('buttons_view_new.png') no-repeat left top;
 }
 #collection .image {
 	height: 172px;
@@ -1573,50 +1604,12 @@ body{
 #collection .price_bg{
 	width:160px;
 	height:28px;
+  text-align:center;
 }
 #collection .price {
-	float: left;
 	font-size: 1em;
 	margin: 0.8em 0 0 0;
 	padding: 0 0 0 10px;
-}
-#collection .title {
-	height: 39px;
-	overflow: hidden;
-	line-height: 1.2em;
-	margin: 0 0 4px 0;
-  padding: 0 10px;
-	font-size: 0.85em;
-}
-#collection .buy {
-	float: right;
-	margin: 9px 4px 0 0;
-}
-#collection .buy .view{
-	width:19px;
-	height: 15px;
-  text-align:left;
-	border: 0;
-	margin: 0;
-	padding: 0;
-	cursor: pointer;
-	background: url('view.png') no-repeat left top;
-	display:block;
-}
-#collection .buy a:hover {
-}
-#collection li:hover .add_to_cart {
-	width:168px;
-	height: 42px;
-	position:relative;
-	top:0px;
-	left:0px;  
-	border: 0;
-	margin: 0;
-	padding: 0;
-	cursor: pointer;
-  background: transparent no-repeat top left;
-	z-index:50;  
 }
 #collection .description {
 	padding: 6px;

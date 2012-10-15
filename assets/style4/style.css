@@ -112,6 +112,9 @@
 #header .logo_wrapper .site_slogan{
 	color:#ecf1c7;
 }
+#collection .grid li:hover .price_bg .price{
+  color:#000000;  
+}
 /*------------------- Background Color --------------------*/
 #collection .subcategory a{
   background-color:#333;	

@@ -109,6 +109,9 @@
 #collection .grid .price{
 	color:#e6c10e;
 }
+#collection .grid li:hover .price_bg .price{
+  color:#000000;  
+}
 /*------------------- Background Color --------------------*/
 #collection .subcategory a{
   background-color:#333;	

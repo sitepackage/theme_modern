@@ -3,6 +3,9 @@ Modern Theme
 
 Changes
 -------------
+2012-10-15
+- เพิ่ม css3 ใน style li:hover ของหน้า index.tt + collection.tt
+
 2012-10-09
 - เพิ่มปุ่ม addtocart จากเดิมยังไม่มี
 - optimize code meta.tt
