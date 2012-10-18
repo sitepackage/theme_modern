@@ -3,6 +3,10 @@ Modern Theme
 
 Changes
 -------------
+2012-10-18
+- แก้ไขสี และขนาดปุ่ม addtocart + view หน้า collection, index.tt
+- แก้ไขสี a:hover ของ Link ตะกร้า 
+
 2012-10-15
 - เพิ่ม css3 ใน style li:hover ของหน้า index.tt + collection.tt
 

@@ -1554,8 +1554,9 @@ body{
   left:0px;  
 }
 #collection li:hover .addtocart{
+  height:177px;
   display:block;
-	background: url('detail_product.png') repeat left top;
+	background: url('bg_title.png') repeat left top;
 
 }
 #collection li:hover .addtocart .title {
@@ -1565,7 +1566,6 @@ body{
 	margin:0 0 6px 0;
   padding:5px;
 	font-size: 0.85em;
-	background: url('bg_title.png') repeat left top;
 }
 #collection li:hover .addtocart .title a{
   color:#ffffff;
@@ -1581,18 +1581,18 @@ body{
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
-  background: url('buttons_add-to-cart_new.png') no-repeat left top;
+  background: url('buttons_addtocart_new1.png') no-repeat left top;
 }
-#collection li:hover .buy a{
+#collection li:hover .buy .view{
   text-align:center;
-	width:60px;
+	width:85px;
 	height:29px;
   display:block;
 	border: 0;
-	margin: 0 0 0 50px;
+	margin: 0 auto;
 	padding: 0;
 	cursor: pointer;
-	background: url('buttons_view_new.png') no-repeat left top;
+	background: url('buttons_view_new1.png') no-repeat left top;
 }
 #collection .image {
 	height: 172px;
