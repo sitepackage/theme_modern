@@ -692,7 +692,9 @@ body{
 	top:0px;
 	left:0px;
 	width:128px;
-	padding:28px 12px 26px 10px;
+  height:32px;
+	padding:20px 12px 18px 10px;
+  overflow:hidden;
 	font-size:1em;
 	display:inline-block;
 	text-decoration:none;
@@ -700,7 +702,7 @@ body{
 	font-weight:bold;
 }
 #header .nav2 li a:hover{
-	padding:28px 15px 26px 10px;
+	padding:20px 12px 18px 10px;  
 	font-weight:bold;
 }
 #header .nav2 li span{

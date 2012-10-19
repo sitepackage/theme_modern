@@ -3,6 +3,10 @@ Modern Theme
 
 Changes
 -------------
+2012-10-19
+- เพิ่ม linklist.banner ใน setting
+- เพิ่มขนาด Highlight ใน setting
+
 2012-10-18
 - แก้ไขสี และขนาดปุ่ม addtocart + view หน้า collection, index.tt
 - แก้ไขสี a:hover ของ Link ตะกร้า 
