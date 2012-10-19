@@ -6,6 +6,7 @@ Changes
 2012-10-19
 - เพิ่ม linklist.banner ใน setting
 - เพิ่มขนาด Highlight ใน setting
+- แก้ไข link nav2  กำหนดขนาดให้ไม่เกิน 2 บรรทัด
 
 2012-10-18
 - แก้ไขสี และขนาดปุ่ม addtocart + view หน้า collection, index.tt

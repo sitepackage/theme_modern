@@ -307,8 +307,8 @@ body{
 #header .account fieldset .text{
 	background:url("bg_acc_text.png") repeat;	
 }
-#header .nav2 li a:hover,
-#header  .nav2 li span{
+#header  .nav2 li span,
+#header  .nav2 li:hover span{
 	background: url("fade_nav2_2.png") repeat-y top right;			
 }
 #nav-left .nav-left .topic2{
@@ -673,36 +673,42 @@ body{
 	list-style:none;
 	overflow:hidden;
 }
-#header .nav2 li {
+#header .nav2 li{
 	position:relative;
-	width:150px;	
+	width:150px;
+  height:70px;
 	float:left;
 	text-align:center;
 	margin:0;
 	overflow:hidden;
 }
-#header  .nav2 li span{
-	display:block;
-	width:150px;
-	height:70px;
-	overflow:hidden;
-}
-#header .nav2 li a {
-	position:absolute;
-	top:0px;
-	left:0px;
-	width:128px;
-  height:32px;
-	padding:20px 12px 18px 10px;
+#header .nav2 li span{
+  position:absolute;
+  top:0;
+  left:0;
+  width:150px;
+  height:70px;
   overflow:hidden;
+}
+#header  .nav2 li:hover span{
+  display:block;
+  overflow:hidden;
+	width:150px;
+  height:70px;
+}
+#header .nav2 li span a{
 	font-size:1em;
 	display:inline-block;
 	text-decoration:none;
 	text-transform:uppercase;
 	font-weight:bold;
+  overflow:hidden;
+  width:128px;
+  height:32px;  
+  margin:20px 12px 18px 10px;  
 }
-#header .nav2 li a:hover{
-	padding:20px 12px 18px 10px;  
+#header .nav2 li a:hover,
+#header .nav2 li:hover a:hover{
 	font-weight:bold;
 }
 #header .nav2 li span{
@@ -845,7 +851,7 @@ body{
 	height:25px;
 	text-align:right;
 }
-.bx-pager a{
+#main .bx-pager a{
 	color:#111;
 	background-color:#fff;
 	margin:0 0 0 5px;
@@ -856,7 +862,7 @@ body{
   border-radius: 30px;
 	font-size:0.85em;
 }
-.bx-pager a:hover{
+#main .bx-pager a:hover{
 	color:#fff;
 	background-color:#111;
 }
@@ -1569,7 +1575,7 @@ body{
   padding:5px;
 	font-size: 0.85em;
 }
-#collection li:hover .addtocart .title a{
+#collection li:hover .addtocart .title{
   color:#ffffff;
 }
 #collection li:hover .buy{

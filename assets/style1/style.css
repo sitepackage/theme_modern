@@ -68,6 +68,7 @@
 }
 #header .account .button,
 #header .cart_status a,
+#header .nav2 li:hover a,
 #header .nav2 li a,
 #sidebar1 .topic2,
 #sidebar1 .stats dd,
@@ -122,7 +123,7 @@
 #collection .subcategory a:hover{
   background-color:#888;
 }
-#header .nav2 li a:hover,
+#header .nav2 li:hover span,
 #discussion .page .padding,
 #comments li .meta,
 #discussion .listing .hover{

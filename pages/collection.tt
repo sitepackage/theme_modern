@@ -41,7 +41,7 @@
         [%- foreach product in products %]
         <li>
           <div class="addtocart">
-            <div class="title">[% product.name | html | link_to product.uri %]</div>
+            <div class="title">[% product.name | html %]</div>
             [%- if  !settings.ecommerce_enabled %]  
             <div class="buy">
               [%- if product.price_varies %]
