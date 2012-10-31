@@ -825,9 +825,9 @@ body{
 }
 #main .highlight_wrapper{ 
 	width: 721px;
-	height: 268px;
+	height: 263px;
 	margin:0 14px 35px 14px;
-	padding:0;
+	padding:5px 0 0 0;
 	overflow: hidden;
 	text-align:center;
 }
@@ -1541,9 +1541,10 @@ body{
 #collection .grid li{
   float: left;
   width: 160px;
-  height: 270px;
-  margin: 0 8px 10px 8px;
-	position:relative;  
+  height: 200px;
+  margin: 0 8px 25px 8px;
+	position:relative;
+  overflow:hidden;
 }
 #collection .grid li .soldout{
   width: 127px;
@@ -1560,17 +1561,16 @@ body{
 #collection .grid li .addtocart{
   display:none;
   width:160px;
-  height:205px;
+  height:172px;
   position:absolute;
   z-index:100;
   top:0px;
   left:0px;  
 }
 #collection li:hover .addtocart{
-  height:177px;
+  height:172px;
   display:block;
 	background: url('bg_title.png') repeat left top;
-
 }
 #collection li:hover .addtocart .title {
 	height: 55px;
@@ -1616,13 +1616,13 @@ body{
 }
 #collection .price_bg{
 	width:160px;
-	height:28px;
+	height:15px;
   text-align:center;
 }
 #collection .price {
 	font-size: 1em;
 	margin: 0.8em 0 0 0;
-	padding: 0 0 0 10px;
+	padding: 0;
 }
 #collection .description {
 	padding: 6px;
